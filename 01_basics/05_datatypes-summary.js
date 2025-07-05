@@ -29,6 +29,30 @@ const myfunction = function(){
 
 console.log(typeof myfunction);
 
+// stack is primitive whereas Heap is Non primitve.
+
+let mylearning = "I am still learning"
+let anotherlearning = "i will do it"
+
+anotherlearning="karke toh dikhayuga"
+
+
+let user1 = {
+    email: "nibodhshinde998@gmail.com"
+    ,upi: "apnakaamkaro@gmail.com"
+}
+
+let user2 = user1
+
+user2.email= "jhakas69@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
+
+
+
+
 
 
 
